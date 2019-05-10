@@ -4,8 +4,8 @@ from keras.layers import Conv2D, GlobalMaxPooling2D, GlobalAveragePooling2D, Fla
 from keras.layers import concatenate
 
 
-seg_epochs = 25
-classification_epochs = 10
+seg_epochs = 5
+classification_epochs = 2
 
 
 def compact_cnn_segmentation(shape=(512,512,1),segmodelpath=None):
